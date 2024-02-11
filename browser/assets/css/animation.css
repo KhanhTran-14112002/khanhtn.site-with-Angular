@@ -1,0 +1,66 @@
+@keyframes Fadein{
+  from{
+    transform: translateY(100px);
+    opacity: 0.6;}
+  to{
+    transform: translateY(0px);
+    opacity: 1;}
+}
+
+@keyframes AppearsLeft{
+  from{
+    transform: translateX(100px);
+    opacity: 0.6;}
+  to{
+    transform: translateX(0px);
+    opacity: 1;}
+}
+@keyframes AppearsRight{
+  from{
+    transform: translateX(-100px);
+    opacity: 0.6;}
+  to{
+    transform: translateX(0px);
+    opacity: 1;}
+}
+@keyframes AppearsBottom{
+  from{
+    transform: translateY(100px);
+    opacity: 0.6;}
+  to{
+    transform: translateY(0px);
+    opacity: 1;}
+}
+@keyframes GrowthWidth{
+  from{
+    width: 30%;
+    opacity: 0.5;
+  }
+  to{
+    width: 100%;
+    opacity: 1;
+  }
+}
+@keyframes GrowthHeight{
+  from{
+    height: 30%;
+    opacity: 0.5;
+  }
+  to{
+    height: 100%;
+    opacity: 1;
+  }
+}
+.typing{
+  height: 100%;
+  width: 22ch;
+  text-wrap: none;
+  overflow: hidden;
+  font-family: "Space Mono",monospace;
+  animation: Typing 3.5s steps(22) infinite alternate-reverse;
+}
+@keyframes Typing{
+  from{
+    width: 0;
+  }
+}
